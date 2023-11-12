@@ -1,38 +1,116 @@
-.App {
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #04724D;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 400px;
+  background-color: #fff;
+  padding: 1.75rem;
+  border-radius: .8rem;
+}
+
+.container h1 {
   text-align: center;
+  margin-bottom: 1.5rem;
+  color: #56876d;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container form {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.container form label {
+  margin-bottom: .5rem;
+  color: #2c2c2c;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container form label::placeholder {
+  font-family: 'Arial', sans-serif;
+}
+
+.container form textarea {
+  width: 100%;
+  padding: .5rem;
+  outline: 1px solid #ccc;
+  border: none;
+  height: 100px;
+  resize: none;
+  border-radius: .25rem;
+  margin-bottom: 1.3rem;
+}
+
+.container form textarea:focus {
+  outline: 1px solid #04714d;
+  /* lets generate a box shadow like bootstrap inputs */
+  box-shadow: 0 0 0 0.2rem rgba(4, 113, 77, .25);
+}
+
+.container form input[type="number"] {
+  padding: .5rem;
+  float: right;
+  width: 100px;
+  margin-bottom: 1.5rem;
+  border: none;
+  outline: 1px solid #ccc;
+  border-radius: .25rem;
+}
+
+.container form input[type="number"]:focus {
+  outline: 1px solid #04714d;
+  /* lets generate a box shadow like bootstrap inputs too */
+  box-shadow: 0 0 0 0.2rem rgba(4, 113, 77, .25);
+}
+
+.container form button {
+  background-color: #04714d;
+  color: #fff;
+  border: none;
+  padding: 1rem 0;
+  border-radius: .25rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  letter-spacing: .1rem;
+}
+
+.encrypted-text-container {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: .25rem;
+  position: relative;
+  margin-bottom: 1.5rem;
+  padding: .75rem;
+  background-color: #f3f3f3;
+}
+
+.container form input[type="text"] {
+  outline: none;
+  border: none;
+  display: block;
+  width: 100%;
+  background: none;
+  letter-spacing: 1px;
+}
+
+ion-icon {
+  position: absolute;
+  bottom: 50%;
+  right: 1rem;
+  cursor: pointer;
+  transform: translateY(50%);
+}
+
+.container form button:hover {
+  background-color: #0f5530;
 }

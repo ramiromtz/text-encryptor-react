@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# Text Encryptor con React.js
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este proyecto es un simple text encryptor desarrollado con React.js. Permite cifrar mensajes de texto utilizando algún algoritmo de encriptación basico y con fines solo de practica.
 
-## Available Scripts
+# Captura de pantalla
+![Text Encryptor](./text-encryptor.png)
 
-In the project directory, you can run:
 
-### `npm start`
+## Características
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Cifrado de mensajes de texto.
+- Desarrollado con React.js para una interfaz de usuario dinámica.
+- Función para copiar el texto encriptado
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Instalación
 
-### `npm test`
+1. Clona este repositorio:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    ```bash
+    git clone https://github.com/ramiromtz/text-encryptor-react.git
+    ```
 
-### `npm run build`
+2. Accede al directorio del proyecto:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    ```bash
+    cd text-encryptor-react
+    ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Instala las dependencias:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    ```bash
+    npm install
+    ```
 
-### `npm run eject`
+4. Inicia la aplicación:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    ```bash
+    npm start
+    ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+La aplicación estará disponible en [http://localhost:3000](http://localhost:3000) en tu navegador.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Uso
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Abre la aplicación en tu navegador.
+2. Ingresa un mensaje de texto en el área de entrada.
+3. Haz clic en el botón correspondiente para ver el resultado.
 
-## Learn More
+## Contribución
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Si quieres contribuir a este proyecto, sigue estos pasos:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Haz un fork del proyecto.
+2. Crea una nueva rama: `git checkout -b feature/nueva-funcionalidad`.
+3. Realiza tus cambios y haz commit: `git commit -m 'Añadir nueva funcionalidad'`.
+4. Haz push a la rama: `git push origin feature/nueva-funcionalidad`.
+5. Abre un Pull Request.
 
-### Code Splitting
+## Contacto
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Autor: Ramiro Martínez Juárez
+- Email: ramiromtz770@gmail.com
+- GitHub: [ramiromtz](https://github.com/ramiromtz)
+ 
+## Nota sobre el idioma del código
 
-### Analyzing the Bundle Size
+Este proyecto está escrito en inglés para seguir las mejores prácticas de la comunidad de desarrollo de software y facilitar la colaboración global. Aunque la documentación está en español para mayor accesibilidad, el código fuente utiliza convenciones en inglés.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+¡Gracias por usar Text Encryptor con React.js! Si tienes alguna pregunta o problema, no dudes en contactarme.
